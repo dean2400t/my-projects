@@ -1,0 +1,7 @@
+.strechit{
+    flex-grow: inherit;
+}
+
+.col-md-4{
+    text-align: center;
+}
