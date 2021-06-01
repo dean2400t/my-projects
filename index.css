@@ -1,7 +1,30 @@
-.strechit{
-    flex-grow: inherit;
+.card-container{
+    display: flex;
+    flex-direction: column;
 }
 
-.col-md-4{
-    text-align: center;
+.card-container .card{
+    flex-grow: 1;
+}
+
+.demoPassHidden {
+    max-height: 0;
+    overflow: hidden;
+    background: #f8f9fa;
+    color: #f8f9fa;
+    transition: max-height 2s, background-color 1s, color 1s;
+}
+
+.demoPass {
+    background: #d5d5d5;
+    color: black;
+    max-height: 500px;
+    transition: max-height 2s, background-color 1s, color 1s;
+}
+
+.demoPassBlank {
+    background: #f8f9fa;
+    color: #f8f9fa;
+    max-height: 500px;
+    transition: max-height 2s, background-color 1s, color 1s;
 }
