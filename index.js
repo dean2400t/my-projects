@@ -1,9 +1,9 @@
 let prevColsInRow;
 function addRowClass(){
     let colsInRow;
-    if (window.innerWidth<960)
+    if (window.innerWidth<992)
         colsInRow=1;
-    else if (window.innerWidth<1140)
+    else if (window.innerWidth<1200)
         colsInRow=2;
     else
         colsInRow=3;
